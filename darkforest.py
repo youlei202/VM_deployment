@@ -90,7 +90,7 @@ def episode_finished(r):
 
 
 # Start learning
-runner.run(episodes=30, max_episode_timesteps=200, episode_finished=episode_finished)
+runner.run(episodes=100, max_episode_timesteps=200, episode_finished=episode_finished)
 
 # Print statistics
 print("Learning finished. Total episodes: {ep}. Average reward of last 100 episodes: {ar}.".format(
